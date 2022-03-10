@@ -11,12 +11,10 @@ Sentiment Model > Base Model
 2. SNS text data: Reddit r/Bitcoin - daily discussion, r/CryptoCurrency - daily discussion
 
 ## Sentiment Analysis
-- Using VADER
-- 비트코인 커뮤니티 기반 빈도수 Top1000 어휘중 정성적인 평가하에 Lexicon추가
+- SNS 감성분석에 자주 쓰이는 VADER 감성사전
+- Finance/CryptoCurrency라는 도메인 특성상 어휘의 감성이 일반적인 SNS와 다를 것
 - 기존 Lexicon에 crypto 관련 어휘 추가
-- 어휘추가는 빈도수 기준 상위 1000개 단어들중 선별하여 VADER 방식으로 
 
-## 
 ## Confusion Matrix
 
 ![image](https://user-images.githubusercontent.com/28949162/157691854-061ee33e-ba0a-429f-8a8e-144ea4576060.png)
@@ -40,22 +38,19 @@ LSTM
 
 ## Problem
 - Sentiment Feature를 추가해도 성능이 좋아지지 않음.
-- Filtering
+- 의미 없는 문장 Filtering
 - 
 
-
-## ToDo List
+## To Do List
 1. CryptoCurrency Subreddit 크롤링 과정에서 결측치가 많이 생기는 것 해결
 2. 대댓글 수집
 3. 필터링 문제
 4. 
 
 ## 의문점
-1. Base Model 성능 이슈
-2. Filtering. Opinion Finder
-
-
-
+1. Base Model 성능을 어느정도까지 향상 시켜야 하는지
+2. Feature에 따른 
+3. Feature를 많이 추가하면 모델의 성능이 
 
 
 
