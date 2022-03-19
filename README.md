@@ -8,7 +8,7 @@ Sentiment Model > Base Model
 
 ## Data
 1. price data: Binance
-2. SNS text data: Reddit r/Bitcoin - daily discussion, r/CryptoCurrency - daily discussion
+2. SNS text data: Reddit r/Bitcoin - daily discussion's comments, r/CryptoCurrency - daily discussion's comments
 
 ## Sentiment Analysis
 - SNS 감성분석에 자주 쓰이는 VADER 감성사전
@@ -37,21 +37,9 @@ Sentiment Model > Base Model
 LSTM
 
 ## Problem
-- Sentiment Feature를 추가해도 성능이 좋아지지 않음.
-- 의미 없는 문장 Filtering
-- 
 
 ## To Do List
-1. CryptoCurrency Subreddit 크롤링 과정에서 결측치가 많이 생기는 것 해결
-2. 대댓글 수집
-3. 필터링 문제
-4. 
-
-## 의문점
-1. Base Model 성능을 어느정도까지 향상 시켜야 하는지
-2. Feature에 따른 
-3. Feature를 많이 추가하면 모델의 성능이 
-
+1. Bert
 
 
 
