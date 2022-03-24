@@ -8,7 +8,21 @@ Sentiment Model > Base Model
 
 ## Data
 1. price data: Binance
-2. SNS text data: Reddit r/Bitcoin - daily discussion's comments, r/CryptoCurrency - daily discussion's comments
+2. SNS text data: Reddit r/Bitcoin - daily discussion, r/CryptoCurrency - daily discussion
+
+## Daily sentiment distribution
+
+![image](https://user-images.githubusercontent.com/28949162/159929420-b7b73d02-a5b9-4d2b-a9d9-454e0d1d9e50.png)
+
+- VADER 대댓글 제외
+
+![image](https://user-images.githubusercontent.com/28949162/159929537-1467c068-d8e4-4790-a4a1-14b09a84d29c.png)
+
+- VADER 대댓글 포함
+
+![image](https://user-images.githubusercontent.com/28949162/159929661-46900b61-c441-4188-b6e9-52eadd6c4ddc.png)
+
+- BERtweet 대댓글 제외
 
 ## Sentiment Analysis
 - SNS 감성분석에 자주 쓰이는 VADER 감성사전
@@ -33,13 +47,24 @@ Sentiment Model > Base Model
 
 4. V3: cryptocurrency subreddit에서 추출한 문장 중 잘못 분류한 문장들을 읽어본 후 직접 필요한 단어 추가
 
+## Correlation between sentiment and btc price
+
+![image](https://user-images.githubusercontent.com/28949162/159929329-6f998394-0b59-4810-96a9-6a7bdece4103.png)
+
+- top comment: daily discussion 댓글
+- second comment: daily discussion 대댓글
+
 ## Model
-LSTM
+
+![image](https://user-images.githubusercontent.com/28949162/159897419-2ce104ef-f988-4a6a-b7ba-fec3cf4ee68b.png)
 
 ## Problem
+- Sentiment Feature를 추가해도 성능이 좋아지지 않음.
+- 의미 없는 문장 Filtering
+- 
 
 ## To Do List
-1. Bert
-
-
+1. CryptoCurrency Subreddit 크롤링 과정에서 결측치가 많이 생기는 것 해결
+2. 대댓글 수집
+3. 필터링 문제
 
