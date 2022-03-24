@@ -56,7 +56,9 @@ Sentiment Model > Base Model
 
 ## Model
 
-![image](https://user-images.githubusercontent.com/28949162/159897419-2ce104ef-f988-4a6a-b7ba-fec3cf4ee68b.png)
+![image](https://user-images.githubusercontent.com/28949162/160024932-f2fd6bdd-0a4e-42cb-8767-0fb77ae694e4.png)
+
+![image](https://user-images.githubusercontent.com/28949162/160024960-70671202-1e62-441e-a14e-f7018f7faf8e.png)
 
 ## Problem
 - Sentiment Feature를 추가해도 성능이 좋아지지 않음.
